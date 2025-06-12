@@ -28,11 +28,19 @@ const works = [
     description: 'Developed interactive dashboards using Tableau and Power BI to explore demographic, economic, and tourism trends across Emirates in the UAE.'
   },
   {
-    title: 'Energy Consumption Analysis',
-    tags: ['Python', 'Pandas', 'Matplotlib', 'Seaborn', 'EDA', 'Energy Data'],
-    projectLink: 'https://github.com/tamistry30/Energy-Consumption-Analysis',
-    description: 'Performed exploratory data analysis on regional energy consumption trends, visualized patterns over time, and identified usage insights across sectors using Python.'
-  }
+  title: "Energy Consumption Forecasting",
+  tags: [
+    "XGBoost",
+    "ARIMA",
+    "Time Series",
+    "Shiny App",
+    "Data Cleaning",
+    "Weather Data Integration",
+    "Energy Analytics"
+  ],
+  projectLink: "https://github.com/tamistry30/Energy-Consumption-Analysis",
+  description: "Developed predictive models using XGBoost and ARIMA to forecast hourly energy consumption in South Carolina. Integrated weather and usage data, and deployed visual insights via an interactive Shiny dashboard."
+}
   
 ];
 
