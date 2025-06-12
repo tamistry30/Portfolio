@@ -30,6 +30,7 @@ const works = [
   {
   title: "Energy Consumption Forecasting",
   tags: [
+    "R",
     "XGBoost",
     "ARIMA",
     "Time Series",
