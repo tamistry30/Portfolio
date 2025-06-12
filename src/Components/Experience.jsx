@@ -5,12 +5,12 @@
 
 const experiences = [
   {
-    role: "Data Analyst Intern",
-    company: "Bandhouse Music Group, Nashville, Tennessee",
-    period: "Jan 2025 – Jun 2025",
-    stack: ["Python", "Data Analysis", "Tableau", "APIs", "Google Sheets", "SQL", "Streaming Analytics"],
-    description: "Worked on streaming and social media analytics using Python and SQL, built interactive Tableau dashboards for artist insights, and automated data collection pipelines via Google Sheets API to support marketing strategy."
-  },
+  role: "Data Scientist Intern",
+  company: "Bandhouse Music Group, Nashville, TN",
+  period: "May 2024 – Aug 2024",
+  stack: ["Python", "Spotify API", "ETL Pipelines", "EDA", "Tableau", "Statistical Analysis"],
+  description: "Built and automated Python-based data pipelines to collect and clean engagement data from Spotify, YouTube, and Instagram. Performed EDA and statistical testing to uncover user trends, boosting engagement by 15%. Created Tableau dashboards for real-time insights and delivered recommendations that led to a 10% growth in streaming performance."
+},
   {
     role: "Data Analyst Intern",
     company: "Aromagasms Cafe, Mumbai, India",
