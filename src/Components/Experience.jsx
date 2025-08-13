@@ -5,6 +5,14 @@
 
 const experiences = [
   {
+    role: "Research Analyst - Data & Behavioral Insights",
+    company: "Syracuse University, Syracuse, NY",
+    period: "July 2025 – Present",
+    stack: ["Python", "Pandas", "Polars", "ETL Pipelines", "LLM Prompt Engineering", "Matplotlib", "Seaborn", "Plotly"],
+    description: "Designed and executed descriptive statistics workflows on large-scale datasets using Python, Pandas, and Polars, reducing analysis time by 35%. Automated ETL pipelines to clean, transform, and aggregate structured datasets, cutting manual processing by 40%. Engineered prompt-based queries for LLMs on structured sports datasets, improving model accuracy validation by 25%. Created and published statistical reports and visualizations to cloud platforms for faculty access and decision-making."
+  },
+  
+  {
   role: "Data Scientist Intern",
   company: "Bandhouse Music Group, Nashville, TN",
   period: "May 2024 – Aug 2024",
@@ -12,9 +20,9 @@ const experiences = [
   description: "Built and automated Python-based data pipelines to collect and clean engagement data from Spotify, YouTube, and Instagram. Performed EDA and statistical testing to uncover user trends, boosting engagement by 15%. Created Tableau dashboards for real-time insights and delivered recommendations that led to a 10% growth in streaming performance."
 },
   {
-    role: "Data Analyst Intern",
+    role: "Data Analyst ",
     company: "Aromagasms Cafe, Mumbai, India",
-    period: "Feb 2023 – May 2023",
+    period: "May 2022 – July 2023",
     stack: ["Python", "SQL", "Statistics", "Data Cleaning", "Inventory Analytics"],
     description: "Automated order and inventory management processes, performed statistical analysis to uncover key drivers of customer satisfaction, and developed Python and SQL scripts to streamline reporting and improve operational efficiency."
   }
