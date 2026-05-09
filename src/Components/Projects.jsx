@@ -41,6 +41,22 @@ const works = [
   ],
   projectLink: "https://github.com/tamistry30/Energy-Consumption-Analysis",
   description: "Developed predictive models using XGBoost and ARIMA to forecast hourly energy consumption in South Carolina. Integrated weather and usage data, and deployed visual insights via an interactive Shiny dashboard."
+},
+  {
+  title: "vBay Auction Data Warehouse & BI",
+  tags: [
+    "Snowflake",
+    "SQL",
+    "Star Schema",
+    "Dimensional Modeling",
+    "ETL Pipelines",
+    "Power BI",
+    "DAX",
+    "Data Warehousing",
+    "PostgreSQL"
+  ],
+  projectLink: "https://github.com/tamistry30/vBay-Auction-Data-Warehouse-Business-Intelligence",
+  description: "Architected a three-tier Snowflake data warehouse for an eBay-like auction platform using star schema dimensional modeling across three business processes: Bidding, Item Listing, and Auction Completion. Built SQL-based ETL pipelines to extract, clean, and load bids, users, items, ratings, and ZIP data into fact and dimension tables. Delivered an interactive Power BI dashboard surfacing a 17.65% auction success rate, bidder engagement trends, category-level unsold item analysis, and city-wise bidding patterns."
 }
   
 ];
