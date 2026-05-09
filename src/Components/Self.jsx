@@ -20,7 +20,7 @@ const Self = () => {
                 </h2>
 
                 <p className="mb-8 text-lg text-zinc-400 items-center">
-                Data Analyst | Cloud & ML Enthusiast  
+                Data Analytic Engineer | Cloud & ML Enthusiast  
                 </p>
 
                 <div className="flex items-center gap-3">
