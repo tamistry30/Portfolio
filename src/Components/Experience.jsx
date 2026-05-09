@@ -5,26 +5,26 @@
 
 const experiences = [
   {
-    role: "Research Analyst - Data & Behavioral Insights",
+    role: "Data Engineer, Statistical Research",
     company: "Syracuse University, Syracuse, NY",
     period: "July 2025 – Present",
-    stack: ["Python", "Pandas", "Polars", "ETL Pipelines", "LLM Prompt Engineering", "Matplotlib", "Seaborn", "Plotly"],
-    description: "Designed and executed descriptive statistics workflows on large-scale datasets using Python, Pandas, and Polars, reducing analysis time by 35%. Automated ETL pipelines to clean, transform, and aggregate structured datasets, cutting manual processing by 40%. Engineered prompt-based queries for LLMs on structured sports datasets, improving model accuracy validation by 25%. Created and published statistical reports and visualizations to cloud platforms for faculty access and decision-making."
+    stack: [Python", "SQL", "Apache Airflow", "AWS Glue","AWS Lambda", "Amazon Redshift", "AWS Athena","S3", "DOMO", "Docker", "CI/CD"],
+    description: "Built and maintained Python/SQL ELT pipelines on AWS using Airflow, Glue, and Lambda to ingest 120K+ academic records into Redshift, with SQL-based schema validation enforcing data quality across 6 tables. Configured DOMO-Redshift integration to automate enrollment reporting for research teams, eliminating manual data pull requests, and containerized pipeline workflows using Docker with CI/CD practices for consistent deployment      ."
   },
   
   {
-  role: "Data Scientist Intern",
-  company: "Bandhouse Music Group, Nashville, TN",
-  period: "May 2024 – Aug 2024",
-  stack: ["Python", "Spotify API", "ETL Pipelines", "EDA", "Tableau", "Statistical Analysis"],
-  description: "Built and automated Python-based data pipelines to collect and clean engagement data from Spotify, YouTube, and Instagram. Performed EDA and statistical testing to uncover user trends, boosting engagement by 15%. Created Tableau dashboards for real-time insights and delivered recommendations that led to a 10% growth in streaming performance."
+  role: "Data Science Intern",
+  company: "Bandhouse Music Group Co, Nashville, TN",
+  period: "May 2024 – September 2024",
+  stack: ["Python", "Pandas", "ETL Pipelines", "Statistical Analysis", "A/B Testing", "Regression", "Clustering"],
+  description: "Engineered Python-based data transformation pipelines aggregating artist performance data from 5+ streaming and social platforms into unified analytical datasets standardized across campaign reporting workflows. Ran A/B tests and statistical analyses on 3,000+ user interactions, delivering a statistically significant 6% lift in user retention at 95% confidence."
 },
   {
-    role: "Data Analyst ",
-    company: "Aromagasms Cafe, Mumbai, India",
+    role: "Jr. Data Engineer ",
+    company: "J&J Hospitality Pvt. Ltd., Mumbai, India",
     period: "May 2022 – July 2023",
-    stack: ["Python", "SQL", "Statistics", "Data Cleaning", "Inventory Analytics"],
-    description: "Automated order and inventory management processes, performed statistical analysis to uncover key drivers of customer satisfaction, and developed Python and SQL scripts to streamline reporting and improve operational efficiency."
+    stack: ["Python", "PySpark", "AWS Glue", "Apache Airflow", "Snowflake", "Amazon S3", "Snowpipe", "dbt", "SQL", "Power BI"],
+    description: "Designed and maintained batch ETL pipelines using Airflow, AWS Glue, and Snowpipe to ingest purchasing, supplier, and inventory data into Snowflake, reducing refresh latency from 4 hours to 1 hour and ingestion latency from 90 to 10 minutes. Built dbt star-schema models and PySpark transformations within Glue to validate 680K+ structured records, and delivered Power BI dashboards for real-time monitoring of inventory and operational KPIs."
   }
 ];
 
