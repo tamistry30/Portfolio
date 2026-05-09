@@ -7,11 +7,11 @@ const skills = [
   },
   {
     category: "Data Visualization",
-    items: ["Power BI", "Tableau", "Google Analytics", "Looker Studio"],
+    items: ["Power BI(DAX, Power Query)", "Tableau", "Google Analytics", "Looker Studio", "DOMO"],
   },
   {
     category: "Databases & Cloud Platforms",
-    items: ["MongoDB", "Microsoft Azure", "AWS", "Google Cloud", "Redshift", "Snowflake", "Big Query"],
+    items: ["MongoDB", "Microsoft Azure", "AWS(Glue, Lambda, S3, Athena)", "Google Cloud(Big Query)", "Redshift", "Snowflake", "Snowpipe", "PostgreSQL"],
   },
   {
     category: "Machine Learning/Statistics",
@@ -23,7 +23,7 @@ const skills = [
   },
   {
     category: "Other Tools",
-    items: ["Power Apps", "Microsoft Excel", "GitHub Codespaces", "Google Colab", "JupyterLab", "Docker", "Trello"],
+    items: ["Power Apps", "Microsoft Excel", "GitHub Codespaces", "Google Colab", "JupyterLab", "Docker", "Trello", "Git", "CI/CD", "Parquet"],
   },
 ];
 
