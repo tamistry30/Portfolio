@@ -8,7 +8,7 @@ const experiences = [
     role: "Data Engineer, Statistical Research",
     company: "Syracuse University, Syracuse, NY",
     period: "July 2025 – Present",
-    stack: [Python", "SQL", "Apache Airflow", "AWS Glue","AWS Lambda", "Amazon Redshift", "AWS Athena","S3", "DOMO", "Docker", "CI/CD"],
+    stack: ["Python", "SQL", "Apache Airflow", "AWS Glue","AWS Lambda", "Amazon Redshift", "AWS Athena","S3", "DOMO", "Docker", "CI/CD"],
     description: "Built and maintained Python/SQL ELT pipelines on AWS using Airflow, Glue, and Lambda to ingest 120K+ academic records into Redshift, with SQL-based schema validation enforcing data quality across 6 tables. Configured DOMO-Redshift integration to automate enrollment reporting for research teams, eliminating manual data pull requests, and containerized pipeline workflows using Docker with CI/CD practices for consistent deployment      ."
   },
   
