@@ -7,11 +7,11 @@ import Skills from "./Skills";
 const aboutItems = [
   {
     label: 'Years of Experience',
-    number: 2+
+    number: '2+'
   },
   {
     label: 'Pipelines Built',
-    number: 10+
+    number: '10+'
   },
   {
     label: 'Domains',
