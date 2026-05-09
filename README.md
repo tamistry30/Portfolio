@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tejas Mistry-portfolio
  
 =======
