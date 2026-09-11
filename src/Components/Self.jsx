@@ -15,9 +15,13 @@ const Self = () => {
         <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
             <div>
                
-                <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                Turning complexity into clarity through data, cloud, and AI.
-                </h2>
+               <h2 className="headline-1 mt-5 mb-8 lg:mb-10">
+  <span className="whitespace-nowrap">Turning complexity</span>
+  <br />
+  <span className="whitespace-nowrap">into clarity through</span>
+  <br />
+  <span className="whitespace-nowrap">Data, Cloud, and AI.</span>
+</h2>
 
                 <p className="mb-8 text-lg text-zinc-400 items-center">
                 Data Engineer | Building at the intersection of Data, Cloud & AI 
