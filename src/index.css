@@ -19,29 +19,21 @@ body {
 * Typography
 \* __________ */
 
-.headline-1 
-.headline-2{
-  @apply max-w-max;
-  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .headline-1 {
-  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+  @apply text-5xl leading-[1.05] font-semibold
+         sm:text-6xl
+         lg:text-[64px]
+         lg:leading-[1.08];
+  color: #fafafa;
 }
 
-.headline-2{
-  @apply text-3xl lg:text-xl lg:leading-tight font-semibold
+.headline-2 {
+  @apply text-3xl lg:text-xl lg:leading-tight font-semibold;
 }
-
 
 .title-1{
   @apply text-[22px] font-normal
 }
-
-
-
 
 
 /* __________ *\
@@ -55,10 +47,9 @@ body {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
-.container{
-  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl;
+.container {
+  @apply px-4 mx-auto lg:px-8 xl:max-w-7xl;
 }
-
 
 .img-box{
   @apply bg-zinc-700 overflow-hidden;
@@ -144,7 +135,7 @@ menu-btn {
 }
 
 .btn-primary {
-  @apply h-11 text-white font-medium text-sm px-4 rounded-xl transition-all shadow-md;
+  @apply h-11 text-white font-medium text-sm px-5 rounded-xl transition-all shadow-md;
   background: linear-gradient(135deg, #4B0DAE, #38BDF8);
   background-size: 200% 200%;
   background-position: left center;
@@ -161,7 +152,7 @@ menu-btn {
 }
 
 .btn-outline {
-  @apply h-11 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
+  @apply h-11 px-5 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800;
 }
 
 /* __________ *\
