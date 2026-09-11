@@ -34,9 +34,9 @@ const Self = () => {
 
             <br />
 
-            <span className="whitespace-nowrap bg-gradient-to-r from-sky-300 via-blue-400 to-violet-400 bg-clip-text text-transparent">
-              into clarity through
-            </span>
+            <span className="whitespace-nowrap bg-gradient-to-r from-sky-300 via-blue-400 to-violet-300 bg-clip-text text-transparent">
+  into clarity through
+</span>
 
             <br />
 
@@ -46,7 +46,7 @@ const Self = () => {
           </h2>
 
           {/* Supporting copy */}
-          <p className="mb-8 max-w-[650px] text-base leading-7 text-zinc-400 sm:text-lg">
+          <p className="mb-8 max-w-[650px] text-base leading-7 text-zinc-300 sm:text-lg">
             I build scalable data pipelines, analytics platforms, and
             AI-powered systems that turn raw data into reliable,
             real-world insights.
@@ -74,7 +74,7 @@ const Self = () => {
           <div className="absolute -inset-5 rounded-[70px] bg-gradient-to-br from-violet-600/25 via-blue-500/10 to-transparent blur-2xl" />
 
           {/* Decorative back card */}
-          <div className="absolute left-6 top-[-16px] h-full w-full rounded-[60px] border border-violet-500/25 bg-violet-500/5" />
+         <div className="absolute left-5 top-[-12px] h-full w-full rounded-[60px] border border-violet-500/15 bg-violet-500/[0.03]" />
 
           {/* Image */}
           <figure className="relative ml-auto w-full max-w-[440px] overflow-hidden rounded-[60px] border border-zinc-700/40 shadow-2xl shadow-violet-950/30">
