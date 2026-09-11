@@ -34,10 +34,9 @@ const Self = () => {
 
             <br />
 
-         <span className="whitespace-nowrap bg-gradient-to-r from-sky-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+         <span className="hero-gradient-text whitespace-nowrap">
   into clarity through
 </span>
-
             <br />
 
             <span className="whitespace-nowrap">
