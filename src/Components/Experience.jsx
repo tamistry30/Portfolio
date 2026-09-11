@@ -8,8 +8,8 @@ const experiences = [
     role: "Data Engineer, Statistical Research",
     company: "Syracuse University, Syracuse, NY",
     period: "July 2025 – Present",
-    stack: ["Python", "SQL", "Apache Airflow", "AWS Glue","AWS Lambda", "Amazon Redshift", "AWS Athena","S3", "DOMO", "Docker", "CI/CD"],
-    description: "Built and maintained Python/SQL ELT pipelines on AWS using Airflow, Glue, and Lambda to ingest 120K+ academic records into Redshift, with SQL-based schema validation enforcing data quality across 6 tables. Configured DOMO-Redshift integration to automate enrollment reporting for research teams, eliminating manual data pull requests, and containerized pipeline workflows using Docker with CI/CD practices for consistent deployment      ."
+    stack: ["Python", "SQL", "Microsoft Fabric", "Data Factory", "OneLake", "Fabric Notebooks", "Power BI", "DAX", "Medallion Architecture"],
+    description: "Maintain and enhance 6 Microsoft Fabric Data Factory ELT pipelines integrating PeopleSoft SIS, Blackboard LMS, and administrative systems into OneLake, processing 2M+ historical records. Develop Python and SQL transformations to standardize enrollment, course, and term data, and design 10+ Gold-layer fact and dimension tables for reusable Power BI semantic models. Improve production reliability by resolving schema and data-type changes and adding validation checks to prevent incompatible records from reaching institutional reports."
   },
   
   {
@@ -17,7 +17,7 @@ const experiences = [
   company: "Bandhouse Music Group Co, Nashville, TN",
   period: "May 2024 – September 2024",
   stack: ["Python", "Pandas", "ETL Pipelines", "Statistical Analysis", "A/B Testing", "Regression", "Clustering"],
-  description: "Engineered Python-based data transformation pipelines aggregating artist performance data from 5+ streaming and social platforms into unified analytical datasets standardized across campaign reporting workflows. Ran A/B tests and statistical analyses on 3,000+ user interactions, delivering a statistically significant 6% lift in user retention at 95% confidence."
+  description: "Engineered Python-based data transformation pipelines 40+ aggregating artist performance data from 5+ streaming and social platforms into unified analytical datasets standardized across campaign reporting workflows. Ran A/B tests and statistical analyses on 3,000+ user interactions, delivering a statistically significant 6% lift in user retention at 95% confidence."
 },
   {
     role: "Jr. Data Engineer ",
