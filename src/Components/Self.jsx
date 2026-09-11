@@ -16,11 +16,11 @@ const Self = () => {
             <div>
                
                 <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                Turning complexity into clarity - through data, cloud, and machine learning.
+                Turning complexity into clarity - through data, cloud, and AI.
                 </h2>
 
                 <p className="mb-8 text-lg text-zinc-400 items-center">
-                Data Analytic Engineer | Cloud & ML Enthusiast  
+                Data Analytic Engineer | Building at the intersection of Data, Cloud & AI 
                 </p>
 
                 <div className="flex items-center gap-3">
