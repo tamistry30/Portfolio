@@ -35,9 +35,9 @@ const Self = () => {
             </span>
             <br />
 
-            <span className="whitespace-nowrap bg-gradient-to-r from-sky-400 via-indigo-400 to-violet-500 bg-clip-text text-transparent">
-              into clarity through
-            </span>
+            <span className="whitespace-nowrap bg-gradient-to-r from-sky-300 via-blue-400 to-violet-400 bg-clip-text text-transparent">
+  into clarity through
+</span>
             <br />
 
             <span className="whitespace-nowrap">
@@ -113,7 +113,7 @@ const Self = () => {
           {/* decorative back card */}
           <div className="absolute left-6 top-[-16px] h-full w-full rounded-[60px] border border-violet-500/25 bg-violet-500/5" />
 
-          <figure className="relative ml-auto w-full max-w-[480px] overflow-hidden rounded-[60px] border border-zinc-700/40 shadow-2xl shadow-violet-950/30">
+          <figure className="relative ml-auto w-full max-w-[440px] overflow-hidden rounded-[60px] border border-zinc-700/40 shadow-2xl shadow-violet-950/30">
             <img
               src="/TEJAS_NYC.jpeg"
               width={656}
