@@ -3,27 +3,78 @@ import React from "react";
 const skills = [
   {
     category: "Languages",
-    items: ["Python", "R", "SQL", "JavaScript"],
+    items: [
+      "Python",
+      "SQL",
+      "R",
+      "JavaScript"
+    ],
   },
   {
-    category: "Data Visualization",
-    items: ["Power BI(DAX, Power Query)", "Tableau", "Google Analytics", "Looker Studio", "DOMO"],
+    category: "Data Engineering",
+    items: [
+      "Apache Airflow",
+      "dbt",
+      "ETL/ELT Pipelines",
+      "Data Modeling",
+      "Apache Kafka",
+      "Medallion Architecture",
+      "Data Governance"
+    ],
   },
   {
-    category: "Databases & Cloud Platforms",
-    items: ["MongoDB", "Microsoft Azure", "AWS(Glue, Lambda, S3, Athena)", "Google Cloud(Big Query)", "Redshift", "Snowflake", "Snowpipe", "PostgreSQL"],
+    category: "Cloud & Data Platforms",
+    items: [
+      "Microsoft Fabric",
+      "OneLake",
+      "AWS (Glue, Lambda, S3, Redshift)",
+      "Snowflake",
+      "Databricks",
+      "PostgreSQL",
+      "Microsoft Azure"
+    ],
   },
   {
-    category: "Machine Learning/Statistics",
-    items: ["Scikit Learn", "TensorFlow", "XGBoost", "LSTM", "ARIMA"],
+    category: "Big Data & Processing",
+    items: [
+      "Apache Spark",
+      "PySpark",
+      "Snowpipe",
+      "Parquet"
+    ],
   },
   {
-    category: "Big Data Technologies",
-    items: ["Apache Spark", "PySpark (MLlib included)", "Databricks"],
+    category: "BI & Visualization",
+    items: [
+      "Power BI (DAX, Power Query)",
+      "Tableau",
+      "Looker Studio",
+      "DOMO"
+    ],
   },
   {
-    category: "Other Tools",
-    items: ["Power Apps", "Microsoft Excel", "GitHub Codespaces", "Google Colab", "JupyterLab", "Docker", "Trello", "Git", "CI/CD", "Parquet"],
+    category: "AI & LLM",
+    items: [
+      "LangGraph",
+      "LangChain",
+      "Claude API",
+      "RAG",
+      "FAISS",
+      "Vector Databases",
+      "NL-to-SQL",
+      "FastAPI"
+    ],
+  },
+  {
+    category: "DevOps & Tools",
+    items: [
+      "Docker",
+      "Git",
+      "GitHub Actions",
+      "CI/CD",
+      "Terraform",
+      "Jupyter"
+    ],
   },
 ];
 
